@@ -3,7 +3,7 @@
 main(){
 int num1, num2, total;
 clrscr();
-printf("Programa que da la suma y resta");
+printf("Programa que da la suma, resta y multiplicacion");
 printf("nn Dame numero 1: ");
 scanf("%d",&num1);
 printf("n Dame numero 2: ");
@@ -12,6 +12,8 @@ total=num1+num2;
 printf("nEl resultado de la suma es: %+d",total);
 total=num1-num2;
 printf("nEl resultado de la resta es es: %+d",total);
+total=num1*num2;
+printf("nEl resultado de la multiplicacion es: %+d",total);
 getch();
 return 0;
 }
