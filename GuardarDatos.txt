@@ -1,0 +1,30 @@
+using System;
+
+namespace tareaa
+{
+	class Program
+	{
+		public static void Main(string[] args)
+		{
+		
+			
+            Persona p=new Persona();
+            
+            Console.WriteLine("Nombre");
+            p.nombre= Console.ReadLine();
+            Console.WriteLine("Edad");
+            p.Edad= Console.ReadLine();
+            Console.WriteLine("Correo");
+            p.Correo= Console.ReadLine();
+            
+            Console.WriteLine("\nNombre:"+p.nombre);
+            Console.WriteLine("\nEdad:"+p.Edad);
+            Console.WriteLine("\nCorreo:"+p.Correo+"\n");
+			
+			// TODO: Implement Functionality Here
+			
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
