@@ -1,0 +1,26 @@
+/*
+ * Created by SharpDevelop.
+ * User: Aula1
+ * Date: 17/09/2013
+ * Time: 07:12 p.m.
+ * 
+ * To change this template use Tools | Options | Coding | Edit Standard Headers.
+ */
+using System;
+
+namespace tareaa
+{
+	/// <summary>
+	/// Description of Persona.
+	/// </summary>
+	public class Persona
+	{public String nombre;
+		public String Edad;
+		public String Correo;
+		public Persona()
+		{
+			
+				
+		}
+	}
+}
